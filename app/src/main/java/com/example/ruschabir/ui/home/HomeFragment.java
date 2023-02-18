@@ -5,6 +5,8 @@ import android.os.Bundle;
 import android.view.LayoutInflater;
 import android.view.View;
 import android.view.ViewGroup;
+import android.view.animation.Animation;
+import android.view.animation.AnimationUtils;
 
 import androidx.annotation.NonNull;
 import androidx.fragment.app.Fragment;
@@ -47,7 +49,6 @@ public class HomeFragment extends Fragment implements UserAdapter.SelectedUser {
         userAdapter  = new UserAdapter(modelRcyclers,  this);
         recyclerView.setAdapter(userAdapter);
 
-
         return root;
     }
 
@@ -78,19 +79,10 @@ public class HomeFragment extends Fragment implements UserAdapter.SelectedUser {
     @Override
     public void selectedUser(ModelRcycler modelRcycler) {
 
-        if (modelRcycler.getLessonName().toLowerCase().startsWith("kirish") ||
-                modelRcycler.getLessonName().toLowerCase().startsWith("hulosa") ||
-                modelRcycler.getLessonName().toLowerCase().startsWith("adabiyot")
-        ){
+
 //
             startActivity(new Intent(getContext(), MainActivity3.class).putExtra("data",modelRcycler.getLoadUrl()));
-        }
-        else {
 
-            startActivity(new Intent(getContext(), MainActivity2.class).putExtra("swimmers",modelRcyclers.indexOf(modelRcycler)));
-
-
-        }
 
     }
 

@@ -4,12 +4,14 @@ import android.content.Context;
 import android.view.LayoutInflater;
 import android.view.View;
 import android.view.ViewGroup;
+import android.view.animation.AnimationUtils;
 import android.widget.Filter;
 import android.widget.Filterable;
 import android.widget.ImageView;
 import android.widget.TextView;
 
 import androidx.annotation.NonNull;
+import androidx.cardview.widget.CardView;
 import androidx.recyclerview.widget.RecyclerView;
 
 import com.example.ruschabir.R;
@@ -45,6 +47,7 @@ public class UserAdapter extends RecyclerView.Adapter<UserAdapter.UserAdapterVie
         holder.tvUserNAme.setText(modelRcycler.getLessonName());
         holder.tvtextName.setText(modelRcycler.getTextName());
         holder.imIcon.setImageResource(modelRcycler.getImgID());
+        holder.cardView.setAnimation(AnimationUtils.loadAnimation(context,R.anim.scale_animation_for_card));
 
     }
 
@@ -97,6 +100,7 @@ public class UserAdapter extends RecyclerView.Adapter<UserAdapter.UserAdapterVie
         TextView tvUserNAme;
         TextView tvtextName ;
         ImageView imIcon;
+        CardView cardView;
 
         public UserAdapterViewHolder(@NonNull View itemView) {
             super(itemView);
@@ -104,6 +108,7 @@ public class UserAdapter extends RecyclerView.Adapter<UserAdapter.UserAdapterVie
             tvUserNAme = itemView.findViewById(R.id.title);
             tvtextName = itemView.findViewById(R.id.desc);
             imIcon = itemView.findViewById(R.id.imageView);
+            cardView = itemView.findViewById(R.id.cardview);
 
 
             itemView.setOnClickListener(new View.OnClickListener() {
