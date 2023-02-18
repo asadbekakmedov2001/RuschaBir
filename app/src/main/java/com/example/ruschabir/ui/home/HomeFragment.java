@@ -52,20 +52,20 @@ public class HomeFragment extends Fragment implements UserAdapter.SelectedUser {
     }
 
     private void initial() {
-        modelRcyclers.add(new ModelRcycler(R.drawable.kirish,"Тема 1. XVII ВЕК КАК КУЛЬТУРНАЯ ЭПОХА                         ","","https://github.com/asadbekakmedov2001/RuschaBir/raw/main/app/src/main/assets/%D0%A2%D0%B5%D0%BC%D0%B01.docx"));
-        modelRcyclers.add(new ModelRcycler(R.drawable.bob_1,"Тема 2. БАРОККО В ЛИТЕРАТУРЕ ИСПАНИИ.ИСПАНСКАЯ ПОЭЗИЯ.         ","","https://github.com/asadbekakmedov2001/RuschaBir/raw/main/app/src/main/assets/%D0%A2%D0%B5%D0%BC%D0%B02.docx"));
-        modelRcyclers.add(new ModelRcycler(R.drawable.bob_2,"Тема 3. ПРОЗА ИСПАНСКОГО БАРОККО                               ","","https://github.com/asadbekakmedov2001/RuschaBir/raw/main/app/src/main/assets/%D0%A2%D0%B5%D0%BC%D0%B03.docx"));
-        modelRcyclers.add(new ModelRcycler(R.drawable.bob_2,"Тема 4. ДРАМАТУРГИЯ ИСПАНИИ. ТВОРЧЕСТВО ПЕДРО КАЛЬДЕРОН.       ","","https://github.com/asadbekakmedov2001/RuschaBir/raw/main/app/src/main/assets/%D0%A2%D0%B5%D0%BC%D0%B04.docx"));
-        modelRcyclers.add(new ModelRcycler(R.drawable.bob_2,"Тема 5. ЛИТЕРАТУРА БАРОККО ВО ФРАНЦИИ.                         ","","https://github.com/asadbekakmedov2001/RuschaBir/raw/main/app/src/main/assets/%D0%A2%D0%B5%D0%BC%D0%B05.docx"));
-        modelRcyclers.add(new ModelRcycler(R.drawable.bob_2,"Тема 6. ФРАНЦУЗСКОЙ ЛИТЕРАТУРЫ XVII ВЕКА.                      ","","https://github.com/asadbekakmedov2001/RuschaBir/raw/main/app/src/main/assets/%D0%A2%D0%B5%D0%BC%D0%B06.docx"));
-        modelRcyclers.add(new ModelRcycler(R.drawable.bob_2,"Тема 7. ФРАНЦУЗСКИЙ ДРАМАТУРГИЯ. ТРАГЕДИЯ.                     ","","https://github.com/asadbekakmedov2001/RuschaBir/raw/main/app/src/main/assets/%D0%A2%D0%B5%D0%BC%D0%B07.docx"));
-        modelRcyclers.add(new ModelRcycler(R.drawable.bob_2,"Тема 8. КОМЕДИИ МОЛЬЕРА.                                       ","","https://github.com/asadbekakmedov2001/RuschaBir/raw/main/app/src/main/assets/%D0%A2%D0%B5%D0%BC%D0%B08.docx"));
-        modelRcyclers.add(new ModelRcycler(R.drawable.bob_2,"Тема 9. ПОЭЗИЯ ФРАНЦУЗСКОГО КЛАССИЦИЗМА.                       ","","https://github.com/asadbekakmedov2001/RuschaBir/raw/main/app/src/main/assets/%D0%A2%D0%B5%D0%BC%D0%B09.docx"));
-        modelRcyclers.add(new ModelRcycler(R.drawable.bob_2,"Тема 10. АНГЛИЙСКАЯ ЛИТЕРАТУРА XVII ВЕКА.                      ","","https://github.com/asadbekakmedov2001/RuschaBir/raw/main/app/src/main/assets/%D0%A2%D0%B5%D0%BC%D0%B010.docx"));
-        modelRcyclers.add(new ModelRcycler(R.drawable.bob_2,"Тема 11. НЕМЕЦКАЯ ЛИТЕРАТУРА XVII ВЕКА. ПОЭЗИЯ.                ","","https://github.com/asadbekakmedov2001/RuschaBir/raw/main/app/src/main/assets/%D0%A2%D0%B5%D0%BC%D0%B011.docx"));
-        modelRcyclers.add(new ModelRcycler(R.drawable.bob_2,"Тема 12. НЕМЕЦКАЯ ДРАМАТУРГИЯ И ПРОЗА.                         ","","https://github.com/asadbekakmedov2001/RuschaBir/raw/main/app/src/main/assets/%D0%A2%D0%B5%D0%BC%D0%B012.docx"));
-        modelRcyclers.add(new ModelRcycler(R.drawable.bob_2,"Тесты                                                          ","","https://github.com/asadbekakmedov2001/RuschaBir/raw/main/app/src/main/assets/%D0%A2%D0%B5%D1%81%D1%82%D1%8B.docx"));
-        modelRcyclers.add(new ModelRcycler(R.drawable.bob_2,"Глоссарий                                                      ","","https://github.com/asadbekakmedov2001/RuschaBir/raw/main/app/src/main/assets/glossary.docx"));
+        modelRcyclers.add(new ModelRcycler(R.drawable.rasm1,"Тема 1. XVII ВЕК КАК КУЛЬТУРНАЯ ЭПОХА                         ","","https://github.com/asadbekakmedov2001/RuschaBir/raw/main/app/src/main/assets/%D0%A2%D0%B5%D0%BC%D0%B01.docx"));
+        modelRcyclers.add(new ModelRcycler(R.drawable.rasm2,"Тема 2. БАРОККО В ЛИТЕРАТУРЕ ИСПАНИИ.ИСПАНСКАЯ ПОЭЗИЯ.         ","","https://github.com/asadbekakmedov2001/RuschaBir/raw/main/app/src/main/assets/%D0%A2%D0%B5%D0%BC%D0%B02.docx"));
+        modelRcyclers.add(new ModelRcycler(R.drawable.rasm3,"Тема 3. ПРОЗА ИСПАНСКОГО БАРОККО                               ","","https://github.com/asadbekakmedov2001/RuschaBir/raw/main/app/src/main/assets/%D0%A2%D0%B5%D0%BC%D0%B03.docx"));
+        modelRcyclers.add(new ModelRcycler(R.drawable.rasm4,"Тема 4. ДРАМАТУРГИЯ ИСПАНИИ. ТВОРЧЕСТВО ПЕДРО КАЛЬДЕРОН.       ","","https://github.com/asadbekakmedov2001/RuschaBir/raw/main/app/src/main/assets/%D0%A2%D0%B5%D0%BC%D0%B04.docx"));
+        modelRcyclers.add(new ModelRcycler(R.drawable.rasm5,"Тема 5. ЛИТЕРАТУРА БАРОККО ВО ФРАНЦИИ.                         ","","https://github.com/asadbekakmedov2001/RuschaBir/raw/main/app/src/main/assets/%D0%A2%D0%B5%D0%BC%D0%B05.docx"));
+        modelRcyclers.add(new ModelRcycler(R.drawable.rasm6,"Тема 6. ФРАНЦУЗСКОЙ ЛИТЕРАТУРЫ XVII ВЕКА.                      ","","https://github.com/asadbekakmedov2001/RuschaBir/raw/main/app/src/main/assets/%D0%A2%D0%B5%D0%BC%D0%B06.docx"));
+        modelRcyclers.add(new ModelRcycler(R.drawable.rasm7,"Тема 7. ФРАНЦУЗСКИЙ ДРАМАТУРГИЯ. ТРАГЕДИЯ.                     ","","https://github.com/asadbekakmedov2001/RuschaBir/raw/main/app/src/main/assets/%D0%A2%D0%B5%D0%BC%D0%B07.docx"));
+        modelRcyclers.add(new ModelRcycler(R.drawable.rasm8,"Тема 8. КОМЕДИИ МОЛЬЕРА.                                       ","","https://github.com/asadbekakmedov2001/RuschaBir/raw/main/app/src/main/assets/%D0%A2%D0%B5%D0%BC%D0%B08.docx"));
+        modelRcyclers.add(new ModelRcycler(R.drawable.rasm9,"Тема 9. ПОЭЗИЯ ФРАНЦУЗСКОГО КЛАССИЦИЗМА.                       ","","https://github.com/asadbekakmedov2001/RuschaBir/raw/main/app/src/main/assets/%D0%A2%D0%B5%D0%BC%D0%B09.docx"));
+        modelRcyclers.add(new ModelRcycler(R.drawable.rasm10,"Тема 10. АНГЛИЙСКАЯ ЛИТЕРАТУРА XVII ВЕКА.                      ","","https://github.com/asadbekakmedov2001/RuschaBir/raw/main/app/src/main/assets/%D0%A2%D0%B5%D0%BC%D0%B010.docx"));
+        modelRcyclers.add(new ModelRcycler(R.drawable.rasm11,"Тема 11. НЕМЕЦКАЯ ЛИТЕРАТУРА XVII ВЕКА. ПОЭЗИЯ.                ","","https://github.com/asadbekakmedov2001/RuschaBir/raw/main/app/src/main/assets/%D0%A2%D0%B5%D0%BC%D0%B011.docx"));
+        modelRcyclers.add(new ModelRcycler(R.drawable.rasm12,"Тема 12. НЕМЕЦКАЯ ДРАМАТУРГИЯ И ПРОЗА.                         ","","https://github.com/asadbekakmedov2001/RuschaBir/raw/main/app/src/main/assets/%D0%A2%D0%B5%D0%BC%D0%B012.docx"));
+        modelRcyclers.add(new ModelRcycler(R.drawable.test_icon,"Тесты                                                          ","","https://github.com/asadbekakmedov2001/RuschaBir/raw/main/app/src/main/assets/%D0%A2%D0%B5%D1%81%D1%82%D1%8B.docx"));
+        modelRcyclers.add(new ModelRcycler(R.drawable.images,"Глоссарий                                                      ","","https://github.com/asadbekakmedov2001/RuschaBir/raw/main/app/src/main/assets/glossary.docx"));
 
     }
 
