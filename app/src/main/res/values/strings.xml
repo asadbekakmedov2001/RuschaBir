@@ -2,8 +2,9 @@
     <string name="app_name">История зарубежной литературы 17 века</string>
     <string name="navigation_drawer_open">Open navigation drawer</string>
     <string name="navigation_drawer_close">Close navigation drawer</string>
-    <string name="nav_header_title">Muallif name</string>
-    <string name="nav_header_subtitle">Termiz Davlat Universiteti</string>
+
+    <string name="nav_header_title">Савенко Олеся Викторовна</string>
+    <string name="nav_header_subtitle">Термезского государственного университета</string>
     <string name="nav_header_desc">Navigation header</string>
     <string name="action_settings">Settings</string>
 
@@ -11,9 +12,9 @@
     <string name="menu_gallery">Video darslar</string>
     <string name="menu_slideshow">Muallif haqida</string>
     <string name="search_view">Search view</string>
-    <string name="xumoyiddin_turayev">Axmedov Asadbek</string>
+    <string name="xumoyiddin_turayev">Савенко Олеся Викторовна</string>
     <string name="xumoyiddinturayev">https://t.me/AkhMeDoV_AsAdBeK</string>
     <string name="termiz_davlat_universiteti">Termiz Davlat Universiteti</string>
-    <string name="muallif_name">Muallif name</string>
-    <string name="muallif_haqida">  Muallif haqida</string>
+    <string name="muallif_name">Савенко Олеся Викторовна</string>
+    <string name="muallif_haqida">  Преподаватель кафедры русской и мировой литературы Термезского государственного университета. Талантливый педагог. Читает лекции и ведет практические, семинарские занятия по истории мировой литературы, современному западному роману и ряду специальных курсов</string>
 </resources>
